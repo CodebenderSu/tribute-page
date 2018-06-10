@@ -1,0 +1,86 @@
+body {
+  background-color: #000000;
+  background-image: url("https://images7.alphacoders.com/320/320952.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+  margin-top: 50px;
+  margin-right: 15%;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  }
+.foreground {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  padding-right: 10%;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  border-radius: 10px;
+  }
+  .title {
+    text-align: center;
+    color: #d1d1d1;
+    font-size: 50px;
+    font-family: "Lily Script One", Serif;
+  }
+  .subtitle {
+    text-align: center;
+    color: #d1d1d1;
+    font-size: 30px;
+    font-family: "Oleo Script", Serif;
+  }
+  .paragraph {
+    color: #d1d1d1;
+    font-size: 30px;
+    font-family: "Oleo Script", Serif;
+  }
+  .list {
+    color: #d1d1d1;
+    font-size: 20px;
+    font-family: "Oleo Script", Serif;
+  }
+  .thumbnail {
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    color: #7c7d7f;
+    font-size: 16px;
+    font-family: "Oleo Script", Serif;
+}
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .quote {
+    color: #d1d1d1;
+    font-size: 20px;
+    font-family: "Oleo Script", Serif;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .cite {
+    color: #88898c;
+    font-size: 18px;
+    font-family: "Oleo Script", Serif;
+    padding-right: 10%;
+    padding-left: 15%;
+}
+  .video {
+    position: relative;
+    height: 0px;
+    overflow: hidden;
+  }
+  .video iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .video-16x9 {
+    padding-bottom: 56.25%;
+  }
